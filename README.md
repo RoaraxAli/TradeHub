@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TradeHub README</title>
-</head>
-<body>
-
     <h1>TradeHub</h1>
     <p><strong>TradeHub</strong> is a sleek, light-themed web platform designed for trading items and services. It combines modern aesthetics with usability to deliver a secure and engaging experience for users.</p>
 
@@ -117,6 +108,3 @@ cd TradeHub</code></pre>
 
     <h2>Contact & Support</h2>
     <p>For questions, issues, or suggestions, open an issue on GitHub or contact the repository owner directly.</p>
-
-</body>
-</html>
