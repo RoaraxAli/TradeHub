@@ -69,8 +69,7 @@ TradeHub/
 cd TradeHub</code></pre>
     </li>
 
-    <li>
-    <strong>Set up the database</strong>
+  Set up the database
     <ul>
         <li>Create a new MySQL database (e.g., <code>tradehub_db</code>)</li>
         <li>Import the schema using this command:</li>
