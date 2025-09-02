@@ -70,34 +70,37 @@ cd TradeHub</code></pre>
     </li>
 
     <li>
-        <strong>Set up the database</strong>
-        <ul>
-            <li>Create a new MySQL database (e.g., <code>tradehub_db</code>)</li>
-            <li>Import the schema:</li>
-        </ul>
-        <pre><code>mysql -u your_user -p tradehub_db &lt; tradehub.sql</code></pre>
-    </li>
+    <strong>Set up the database</strong>
+    <ul>
+        <li>Create a new MySQL database (e.g., <code>tradehub_db</code>)</li>
+        <li>Import the schema using this command:</li>
+    </ul>
+    <pre><code>mysql -u your_user -p tradehub_db < tradehub.sql</code></pre>
+</li>
 
-    <li>
-        <strong>Configure the application</strong>
-        <p>Update config files in <code>config/</code> with your database credentials and base URL.</p>
-    </li>
+<li>
+    <strong>Configure the application</strong>
+    <p>Update config files in <code>config/</code> with your database credentials and base URL.</p>
+</li>
 
-    <li>
-        <strong>Install dependencies</strong>
-        <pre><code>composer install</code></pre>
-    </li>
+<li>
+    <strong>Install dependencies</strong>
+    <p>Run this command to install dependencies:</p>
+    <pre><code>composer install</code></pre>
+</li>
 
-    <li>
-        <strong>Start the application</strong>
-        <pre><code>php -S localhost:8000 -t public</code></pre>
-        <p>Or configure your preferred web server.</p>
-    </li>
+<li>
+    <strong>Start the application</strong>
+    <p>Run this command to start the application:</p>
+    <pre><code>php -S localhost:8000 -t public</code></pre>
+    <p>Or configure your preferred web server.</p>
+</li>
 
-    <li>
-        <strong>Access the application</strong>
-        <p>Open <code>http://localhost:8000</code> in your web browser.</p>
-    </li>
+<li>
+    <strong>Access the application</strong>
+    <p>Open <code>http://localhost:8000</code> in your web browser.</p>
+</li>
+
 </ol>
 
 <hr/>
