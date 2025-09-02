@@ -35,19 +35,25 @@
 <hr/>
 
 <h2>Project Structure</h2>
+<h3>Project Structure</h3>
 <pre>
 TradeHub/
-├── auth/            # Authentication logic (sign-up, login, profile)
-├── config/          # Configuration files and database settings
-├── includes/        # Shared templates and functions
-├── public/          # Public-facing assets (CSS, JS, images)
-├── websocket/       # Real-time notifications handler
-├── assets/          # Design assets such as images, fonts
-├── index.php        # Entry point to the application
-├── tradehub.sql     # Database schema and sample data
-├── composer.json
-├── composer.lock
+├── Admin/               # Admin Pages
+├── auth/                # Handles user authentication (sign-up, login, profile)
+├── config/              # Configuration files and database settings
+├── includes/            # Shared templates, functions, and helpers
+├── public/              # Public-facing assets (CSS, JS, images)
+├── websocket/           # Real-time notifications handler
+├── assets/              # Design assets such as images, fonts, icons
+├── vendor/              # Composer dependencies
+├── Pages/               # User Pages
+├── index.php            # Main entry point of the application
+├── tradehub.sql         # Database schema and sample data
+├── composer.json        # Composer dependencies and metadata
+├── composer.lock        # Locked dependency versions
+├── uploads/
 </pre>
+
 
 <hr/>
 
